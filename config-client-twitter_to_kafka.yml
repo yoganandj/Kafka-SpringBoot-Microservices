@@ -34,4 +34,4 @@ kafka-producer-config:
   # after 60 seconds if no acknowledgement comes producer will throw time out error
   request-timeout-ms: 60000
   # it will retry 5 times in case of error
-  retry-count: 4
+  retry-count: 5
